@@ -1,0 +1,1560 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "juego veintiuno",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GameIntentHandler",
+                    "slots": [],
+                    "samples": [
+                        "A beber",
+                        "Iniciar",
+                        "Comenzar",
+                        "Jugar",
+                        "Empezar"
+                    ]
+                },
+                {
+                    "name": "RoundIntentHandler",
+                    "slots": [
+                        {
+                            "name": "roundTextA",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextB",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextC",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextD",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextE",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextF",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextG",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextH",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextI",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextJ",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextK",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextL",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextM",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextN",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextO",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextP",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextQ",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextR",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextS",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextT",
+                            "type": "TEXT"
+                        },
+                        {
+                            "name": "roundTextU",
+                            "type": "TEXT"
+                        }
+                    ],
+                    "samples": [
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}  {roundTextQ}  {roundTextR}  {roundTextS}  {roundTextT}  {roundTextU}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK} {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}  {roundTextQ}  {roundTextR}  {roundTextS}  {roundTextT}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}  {roundTextQ}  {roundTextR}  {roundTextS}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}  {roundTextQ}  {roundTextR}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}  {roundTextQ}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}  {roundTextP}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}  {roundTextO}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}  {roundTextN}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}  {roundTextM}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}  {roundTextL}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}  {roundTextK}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}  {roundTextJ}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}  {roundTextI}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}  {roundTextH}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}  {roundTextG}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}  {roundTextF}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}  {roundTextE}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}  {roundTextD}",
+                        "{roundTextA}  {roundTextB}  {roundTextC}",
+                        "{roundTextA}  {roundTextB}",
+                        "{roundTextA}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "TEXT",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "uno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tres"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cuatro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cinco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "siete"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ocho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nueve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "diez"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "once"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "doce"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trece"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "catorce"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quince"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dieciséis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "diecisiete"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dieciocho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "diecinueve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "veinte"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "veintiuno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "si"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "siguiente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quien"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bebe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cero"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "humano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amigo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "colega"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "selva"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "desierto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "playa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "laguna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "montaña"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "perro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gato"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vaca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cerdo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "caballo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oveja"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tigre"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "conejo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ciervo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "león"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elefante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pájaro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cuervo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "águila"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sardina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "atún"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calamar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pulpo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "serpiente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cocodrilo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nuez"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "almendra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "castaña"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rábano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zanahoria"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "manzana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "naranja"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plátano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pera"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tomate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sandía"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "día"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ayer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hoy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mañana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amanecer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mediodía"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tarde"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anochecer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "noche"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lunes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "martes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "miércoles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jueves"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "viernes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sábado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "domingo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "luna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "estrella"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "clima"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lluvia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nieve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "viento"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rayo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tormenta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "derecha"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "izquierda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arriba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "centro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "encima"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "alrededor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cerca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lejos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exterior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "interior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "agua"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "frío"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hierro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cobre"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plomo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "barro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arcilla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yeso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sociedad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "comunidad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reunión"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "encuentro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "constitución"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gobierno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "democracia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dictadura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "presidente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "representante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "capital"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ciudad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pueblo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "provincia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "escritorio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "silla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mesa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cama"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puerta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dormitorio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "habitación"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oficina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puerta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ventana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "entrada"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "casa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "edificio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "escalera"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aguja"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "clavo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "llave"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trancar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cuadro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "botón"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cremallera"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cinturón"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zapato"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gafas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pantalón"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "camisa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "camiseta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zapatilla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cordones"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abrigo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chaqueta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calcetines"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bragas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calzoncillo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sujetador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "falda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "camino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ruta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "carretera"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "autopista"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rojo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "naranja"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amarillo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "verde"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "azul"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blanco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "negro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rosa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gris"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lugar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cantidad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tamaño"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "secreto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "presente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pasado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "futuro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "conjunto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grupo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crisis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sensación"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "conciencia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fuerza"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "potencia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "viejo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "joven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fácil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "especial"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "raro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "correcto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "incorrecto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "opuesto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "diferente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parecido"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grande"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pequeño"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amplio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "angosto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "compacto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "delgado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grueso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ligero"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pesado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "suave"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "firme"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flexible"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "duro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blando"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "caluroso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "frío"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "horrible"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dulce"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anterior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "posterior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "feliz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "contento"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aburrido"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sorprenido"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "asustado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "picante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "apestoso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "salir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aceptalo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "explicate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "espera"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "significa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "menos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mucho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "poco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "algo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aproximadamente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exactamente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bastante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "demasiado"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bien"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mejor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "peor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "regular"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "despacio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "deprisa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exacto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "obvio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "contra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inclusive"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "además"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "únicamente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "especialmente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "incluso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "finalmente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ahora"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "todavía"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mientras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "durante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "después"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "luego"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pronto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tarde"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "temprano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ayer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anoche"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hoy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mañana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "enseguida"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "siempre"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nunca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tampoco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quizás"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
